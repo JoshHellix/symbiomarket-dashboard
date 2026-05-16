@@ -21,9 +21,9 @@ export default function SymbioMarketDashboard() {
   }, []);
 
   return (
-    <div style={{ padding: '2rem', fontFamily: 'monospace', minHeight: '100vh', background: '#0a0a0a', color: '#00ff9f' }}>
+    <div style={{ padding: '2rem', fontFamily: 'monospace', background: '#0a0a0a', color: '#00ff9f', minHeight: '100vh' }}>
       <h1>🦠 SymbioMarket — Live Swarm on Arc</h1>
-      <p>Self-evolving agents • Real USDC nanopayments</p>
+      <p>Self-evolving agents trading & paying each other with USDC</p>
 
       <div style={{ display: 'flex', gap: '3rem', marginTop: '2rem' }}>
         <div>
